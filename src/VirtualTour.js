@@ -6,11 +6,11 @@ const VirtualTour = () => {
       <iframe
         width="100%"
         height="100%"
-        allowvr="yes"
-        allow="xr-spatial-tracking"
-        allowfullscreen="yes"
-        frameborder="0"
-        src="https://orbix360.com/t/PxJB2QKDOuaRbPgIbfyfXJUCPJw1/4545543988576256/frays-court-demo?embed=yes"
+    
+        allow="autoplay; fullscreen; microphone; camera;"
+        allowFullScreen
+        style={{ border: "none" }}
+        src="https://panoroo.com/virtual-tours/ABNWeL42?auto_rotate=-5&scene_slider=show&slider_initial_visibility=auto&share_btn=show&like_btn=show&click_to_call_to_prompt_time=60&user_interaction_required=true&click_to_call_wait_time=300"
       ></iframe>
     </div>
   );
